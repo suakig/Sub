@@ -1,0 +1,24 @@
+最初git submoduke addした時はnew commmit とはなっていない
+
+➜  TestRepository git:(master) ✗ git status 
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+    Sub/
+
+nothing added to commit but untracked files present (use "git add" to track)
+➜  TestRepository git:(master) ✗ git add Sub/
+➜  TestRepository git:(master) ✗ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+    new file:   Sub/README.md
+    new file:   Sub/test
+
+
